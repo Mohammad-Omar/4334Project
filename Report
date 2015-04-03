@@ -1,0 +1,19 @@
+Mohammad Kothawala
+Report
+	
+For this increment, my main focus is to read the json files into csv files which is a more readable format for any programming language I have converted the five json files into csv file using Python 3.4 and with the aid of the library called “Panda”.  I have not done much coding or implemented any complex algorithms because This is  such a large data set that the best approach I had in mind was to visualize the data set so as to have a clearer picture.. 
+The Yelp dataset consists of information on businesses, reviews, and users. Business attributes include location, categories, average rating, and review count. Review attributes include rating, text of the review, and votes for useful, funny, and cool. User attributes include review count, average rating, and votes received. The following are the queries that the customers/clients have on mind : 
+Businesses
+ • What businesses have the highest rating as a function of average star rating and total review count? • Which businesses are closed? Which neighborhoods have the highest percentage of closed businesses? • What are the most popular neighborhoods for bars? Coffee shops? 
+Users 
+• Who are the funniest reviewers? Most useful reviewers? ‘Coolest’ reviewers?
+ • Which users have written the most reviews in the greater Phoenix area? 
+
+Reviews
+ • What are the top funny reviews in each area/category? Useful? Cool? 
+• Which categories have the greatest total count of reviews? Highest average?
+	
+	This project encompasses a variety of topics in data mining and data visualization. Data mining techniques have been devised (not implemented though) to mine and summarize opinions from customer reviews, as well as determine fake reviews. I have summarized the attributes of user, business, and neighborhood information and attempt to discover relationships between them.
+
+The first step was to import data and I used a python to create a Python wrapper to that converted the Yelp data formatted as JSON to text files that could be imported into the following files: Businesses, Users, Review, Reviews, ReviewText, Category, Categories, Neighborhood, and Neighborhoods. I experienced some difficulties when converting the Yelp JSON files into text files. 1. Some of the Yelp data items contained arrays or lists 2. Some items were simply missing (which threw an error). 3. The reviews contained tabs, line breaks, and special characters that when imported into also gave rise to errors.
+	There are many tasks that need to be accomplished. Various algorithms will have to be tested and implemented and the efficient one will hence be selected. I plan to finish the project by using the aid of the design that I implemented. Even though there are a lot of challenges ahead converting the files into csv band have 
