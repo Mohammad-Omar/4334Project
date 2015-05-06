@@ -1,0 +1,16 @@
+Mohammad Kothawala
+CSE 4334-002
+Project
+May 5, 2015
+Final Deliverable
+The 2nd increment I had figured out the various attributes of the data set. I dealt with two files from the yelp data set in particular i.e. the user file and the business file. I had made use of the library called json as we were dealing with Json file formats. The json file was loaded in the variable called “file” and each line of the file is a dictionary. I had to research a lot before finding the most efficient way to do so. The project was mostly based on data wrangling, making it more user friendly and readable format.
+The problem became more complex as many attributes had nested dictionaries. Care was taken to overcome this problem. I paid attention to mostly the two files users and business respectively. Dealing with such a large dataset, there were many things that I wanted to implement but due to the time constraint, unfortunately I could not.
+Initially I wanted to cluster the businesses according to the distance from each other. However as I had not learnt clustering until recently, I had to do away with this. So I changed my position as per the progress report.
+So I dealt with the user file initially. I want to find if a particular user has valid reviews, meaning whether the user is credible or not. So basically one particular user has these attributes: average stars, friends, type, review count elite, votes, compliments, use id, yelping since, fans, and name. Based on votes (democracy) we will figure out if a particular user has credibility or not. Votes have three categories: funny, useful and cool. Cool and funny are often used interchangeably. So we will focus mostly on useful. Therefore if the useful votes are greater than the other two combined and there are at least 50 useful votes only then the user can be classified
+Mohammad Kothawala
+CSE 4334-002
+Project
+May 5, 2015
+as credible. After looking at the data, one more criteria has to be mat and that is the user must have an average star rating of greater than 4.5. Other questions were Who are the funniest reviewers? Most useful reviewers? ‘Coolest’ reviewers? Which users have written the most reviews in the greater Phoenix area?
+I used matplotlib,a plotting tool simple plotting the interface that provides a MATLAB-like interface, particularly when combined with IPython. to draw the graph for the useful reviewers. The average star rating was 4.5 and I used different algorithms to come up with this number.
+Similarly for the business, after employing various algorithms, I found out the most popular businesses. In that the name of the business, the address of the business, the city of the business and the state of the business were printed.
